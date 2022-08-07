@@ -20,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -63,7 +64,43 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ContaKt">
+  <component name="RunManager" selected="JUnit.CarroTest">
+    <configuration name="TestMainJV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMainJV" />
+      <module name="poo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="poo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarroTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroTest.quando aumenta motor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="poo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarroTest" />
+      <option name="METHOD_NAME" value="quando aumenta motor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroTest.quando motor igual a 0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="poo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarroTest" />
+      <option name="METHOD_NAME" value="quando motor igual a 0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heranca.aprendizado.semana1.ContaKt" />
       <module name="poo" />
@@ -71,41 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinMaxKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlusMineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlusMineKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heranca.TestMainKt" />
-      <module name="poo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeConvertorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TimeConvertorKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarroTest" />
+        <item itemvalue="JUnit.CarroTest.quando aumenta motor" />
+        <item itemvalue="JUnit.CarroTest.quando motor igual a 0" />
+        <item itemvalue="Application.TestMainJV" />
         <item itemvalue="Kotlin.ContaKt" />
-        <item itemvalue="Kotlin.TestMainKt" />
-        <item itemvalue="Kotlin.TimeConvertorKt" />
-        <item itemvalue="Kotlin.MinMaxKt" />
-        <item itemvalue="Kotlin.PlusMineKt" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +129,7 @@
       <workItem from="1659289456967" duration="4153000" />
       <workItem from="1659814943047" duration="7533000" />
       <workItem from="1659826757948" duration="20000" />
-      <workItem from="1659829484531" duration="2336000" />
+      <workItem from="1659829484531" duration="8597000" />
     </task>
     <servers />
   </component>

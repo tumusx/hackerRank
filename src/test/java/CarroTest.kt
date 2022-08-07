@@ -12,6 +12,6 @@ class CarroTest {
 
     @Test
     fun `quando aumenta motor`() {
-        assertEquals(1, carro.mudarMotor(1))
+        assertEquals(2, carro.mudarMotor(1))
     }
 }

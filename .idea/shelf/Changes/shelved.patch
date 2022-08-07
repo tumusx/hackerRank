@@ -1,0 +1,19 @@
+Index: ../poo/src/test/java/CarroTest.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import aula.abstracaoEncapsulamento.Carro\r\nimport org.junit.Test\r\nimport kotlin.test.assertEquals\r\n\r\nclass CarroTest {\r\n    private val carro = Carro()\r\n\r\n    @Test\r\n    fun `quando adiciona motor no carro`() {\r\n        assertEquals(4, carro.mudarMarcha(4))\r\n    }\r\n\r\n    @Test\r\n    fun `quando aumenta motor`() {\r\n        assertEquals(1, carro.mudarMotor(1))\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../poo/src/test/java/CarroTest.kt b/../poo/src/test/java/CarroTest.kt
+--- a/../poo/src/test/java/CarroTest.kt	(revision 1a15d07f788c73d285c377cf59d0a3a3e743184c)
++++ b/../poo/src/test/java/CarroTest.kt	(date 1659898822288)
+@@ -12,6 +12,6 @@
+ 
+     @Test
+     fun `quando aumenta motor`() {
+-        assertEquals(1, carro.mudarMotor(1))
++        assertEquals(2, carro.mudarMotor(1))
+     }
+ }
+\ No newline at end of file

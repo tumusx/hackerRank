@@ -6,11 +6,15 @@
  */
 
 fun timeConversion(s: String): String {
-    val lastValue = s.substring(s.length - 2)
-    if (lastValue == "PM") {
-        print("Y")
+     if(s.contains("PM")){
+         val numbersHours = s[0].toString() + s[1].toString()
+         print(numbersHours.toInt() + 12)
     }else{
-        print("X")
+         var numbersHours = s[0].toString() + s[1].toString()
+        if(numbersHours.toInt() == 12) numbersHours = "00"
+        s.replace("AM", "PM")
+         numbersHours.removeRange(0, 1)
+         println(numbersHours.toInt().toString() + "0")
     }
     return s
 }
@@ -20,5 +24,4 @@ fun main(args: Array<String>) {
 
     val result = timeConversion(s)
 
-    println(result)
 }

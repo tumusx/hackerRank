@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b421e7ad-25ae-4c8f-9b62-37dcc55ec478" name="Changes" comment="create class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TimeConvertor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TimeConvertor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../poo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -45,6 +46,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/muril/OneDrive/Documentos/spring/learning-spring&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,14 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestesMain">
-    <configuration name="TestMainJV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestMainJV" />
-      <module name="poo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.TimeConvertorKt">
     <configuration name="TestesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aprendizado.semana1.exe1.TestesMain" />
       <module name="poo" />
@@ -110,13 +105,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeConvertorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TimeConvertorKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TimeConvertorKt" />
         <item itemvalue="Application.TestesMain" />
         <item itemvalue="JUnit.CarroTest" />
         <item itemvalue="JUnit.CarroTest.quando aumenta motor" />
         <item itemvalue="JUnit.CarroTest.quando motor igual a 0" />
-        <item itemvalue="Application.TestMainJV" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +134,11 @@
       <workItem from="1659814943047" duration="7533000" />
       <workItem from="1659826757948" duration="20000" />
       <workItem from="1659829484531" duration="9815000" />
-      <workItem from="1660001376883" duration="1465000" />
+      <workItem from="1660001376883" duration="2360000" />
+      <workItem from="1660010905274" duration="197000" />
+      <workItem from="1660612278306" duration="33000" />
+      <workItem from="1660780577299" duration="759000" />
+      <workItem from="1660864782596" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="create class">
       <created>1659898764781</created>
@@ -168,5 +174,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create class" />
     <option name="LAST_COMMIT_MESSAGE" value="create class" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hackerhank$TestesMain.ic" NAME="TestesMain Coverage Results" MODIFIED="1660004824039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>aprendizado.semana1.exe1.*</FILTER>
+    </SUITE>
   </component>
 </project>
